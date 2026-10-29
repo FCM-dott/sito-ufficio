@@ -184,7 +184,7 @@
       attivita: '—', idea_desc: '—', fatturato: '—', regime: '—', extra: '—', urgenza: '—',
       provenienza: 'Check-up sito (percorso rapido Richiamami)', note: '—'
     }).then(function () {
-      qs.hidden = true; document.getElementById('q-ok').hidden = false;
+      qs.style.display = 'none'; document.getElementById('q-ok').hidden = false;
     }).catch(function () {
       qs.disabled = false; qs.textContent = 'Richiamatemi';
       qmsg('Invio non riuscito. Riprova o chiama lo 0574 571400.');
