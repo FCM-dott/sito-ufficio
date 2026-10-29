@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  var CONFIG = { publicKey: 'sb68otMBGAKsrW3QL', serviceId: 'fcm_gmail', templateId: 'template_r8vh2nx', toEmail: 'commercialistafcm@gmail.com' };
+  var CONFIG = { publicKey: 'sb68otMBGAKsrW3QL', serviceId: 'fcm_gmail', templateId: 'template_r8vh2nx', toEmail: 'info@studiomarchipartners.it' };
   var form = document.getElementById('cu-form');
   if (!form) return;
 
