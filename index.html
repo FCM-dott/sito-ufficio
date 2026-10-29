@@ -1,381 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Studio Marchi &amp; Partners — Commercialisti e Revisori Legali a Prato dal 1962</title>
-<meta name="description" content="Studio storico di Prato dal 1962. Consulenza fiscale, societaria e revisione legale per imprese, professionisti e privati, nel territorio pratese e oltre.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio Marchi &amp; Partners — Commercialisti e revisori legali a Prato dal 1962</title>
+<meta name="description" content="Consulenza fiscale e societaria, revisione legale e contabilità per imprese e professionisti. Studio di Prato dal 1962, al lavoro nel territorio pratese e oltre. Check-up fiscale gratuito.">
+
 <link rel="canonical" href="https://www.studiomarchipartners.it/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Studio Marchi &amp; Partners — Commercialisti e Revisori Legali a Prato">
-<meta property="og:description" content="Uno studio storico di Prato, ancora oggi presente sul territorio. Consulenza fiscale, societaria e revisione legale dal 1962.">
-<meta property="og:url" content="https://www.studiomarchipartners.it/">
 <meta property="og:locale" content="it_IT">
-<meta name="theme-color" content="#0F1E3D">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230F1E3D'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23B8975A' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AccountingService",
-  "name": "Studio Marchi & Partners",
-  "url": "https://www.studiomarchipartners.it/",
-  "foundingDate": "1962",
-  "telephone": "+39 0574 571400",
-  "email": "info@studiomarchipartners.it",
-  "vatID": "IT01911910972",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Via Francesco Ferrucci 49",
-    "postalCode": "59100",
-    "addressLocality": "Prato",
-    "addressRegion": "PO",
-    "addressCountry": "IT"
-  },
-  "openingHoursSpecification": [
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "13:00"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "15:00", "closes": "19:00"}
-  ],
-  "areaServed": "Prato e provincia, Italia"
-}
-</script>
-<style>
-:root{
-  --navy:#0F1E3D; --navy-2:#16284d; --gold:#B8975A; --gold-soft:#d8c39a;
-  --cream:#F7F3EC; --white:#FFFFFF; --ink:#1A1A1A; --muted:#5b5f68; --line:rgba(184,151,90,.45);
-  --serif:'Cormorant Garamond', Georgia, 'Times New Roman', serif;
-  --sans:'DM Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --wrap:1160px;
-}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{font-family:var(--sans);font-weight:400;color:var(--ink);background:var(--white);line-height:1.65;-webkit-font-smoothing:antialiased}
-a{color:inherit}
-img{max-width:100%;display:block}
-.wrap{max-width:var(--wrap);margin:0 auto;padding:0 32px}
-section{padding:112px 0}
-.eyebrow{font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:14px;margin-bottom:22px}
-.eyebrow::before{content:"";width:36px;height:1px;background:var(--gold)}
-h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.08;letter-spacing:-.01em}
-h1,h2,h3,.stat b,.step b,.card .num,.avatar{font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
-h1{font-size:clamp(44px,6.4vw,84px)}
-h2{font-size:clamp(34px,4.4vw,56px);margin-bottom:28px}
-h3{font-size:26px;line-height:1.2}
-h1 em,h2 em{font-style:italic;color:var(--gold)}
-.lead{font-size:18px;color:var(--muted);max-width:640px}
-.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--sans);font-size:14px;font-weight:500;letter-spacing:.04em;text-decoration:none;padding:16px 26px;border:1px solid var(--gold);transition:background .2s,color .2s,border-color .2s}
-.btn-gold{background:var(--gold);color:var(--navy)}
-.btn-gold:hover{background:var(--gold-soft);border-color:var(--gold-soft)}
-.btn-ghost{color:var(--white);border-color:rgba(255,255,255,.35)}
-.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
-.rule{height:1px;background:var(--line);border:0}
-
-/* NAV */
-.nav{position:sticky;top:0;z-index:50;background:rgba(15,30,61,.97);backdrop-filter:blur(6px);border-bottom:1px solid rgba(184,151,90,.25)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
-.logo{font-family:var(--serif);font-size:24px;color:var(--white);text-decoration:none;letter-spacing:.01em;white-space:nowrap}
-.logo span{color:var(--gold);font-style:italic}
-.menu{display:flex;align-items:center;gap:30px;list-style:none}
-.menu a{color:rgba(255,255,255,.82);text-decoration:none;font-size:14px;letter-spacing:.03em}
-.menu a:hover{color:var(--gold)}
-.menu .btn{padding:11px 18px;color:var(--navy)}
-.menu .btn:hover{color:var(--navy)}
-.burger{display:none;background:none;border:0;cursor:pointer;width:40px;height:40px;position:relative}
-.burger span,.burger span::before,.burger span::after{position:absolute;left:8px;width:24px;height:1.5px;background:var(--white);content:"";transition:.25s}
-.burger span{top:19px}.burger span::before{left:0;top:-7px}.burger span::after{left:0;top:7px}
-.nav.open .burger span{background:transparent}
-.nav.open .burger span::before{top:0;transform:rotate(45deg)}
-.nav.open .burger span::after{top:0;transform:rotate(-45deg)}
-
-/* HERO */
-.hero{background:var(--navy);color:var(--white);padding:128px 0 96px;position:relative;overflow:hidden}
-.hero::after{content:"1962";position:absolute;right:-20px;bottom:-60px;font-family:var(--serif);font-size:clamp(160px,24vw,340px);color:rgba(184,151,90,.07);line-height:1;pointer-events:none}
-.hero h1{max-width:900px;margin-bottom:30px}
-.hero .lead{color:rgba(255,255,255,.75);margin-bottom:44px}
-.hero-ctas{display:flex;flex-wrap:wrap;gap:16px}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:88px;border-top:1px solid var(--line);position:relative;z-index:1}
-.stat{padding:28px 28px 0 0}
-.stat + .stat{padding-left:28px;border-left:1px solid var(--line)}
-.stat b{display:block;font-family:var(--serif);font-weight:500;font-size:40px;color:var(--gold);line-height:1.1}
-.stat small{font-size:14px;color:rgba(255,255,255,.7)}
-
-/* CHI SIAMO */
-.cream{background:var(--cream)}
-.two-col{display:grid;grid-template-columns:5fr 7fr;gap:72px;align-items:start}
-.two-col p{font-size:18px;color:#33363d}
-.two-col p + p{margin-top:18px}
-
-/* SERVIZI */
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:56px}
-.card{background:var(--cream);padding:40px 34px;border-top:2px solid var(--gold)}
-.card .num{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:22px;display:block;margin-bottom:12px}
-.card h3{margin-bottom:22px}
-.card ul{list-style:none}
-.card li{font-size:15px;color:#3a3d44;padding:11px 0;border-top:1px solid rgba(15,30,61,.1)}
-.esg{margin-top:24px;padding:28px 34px;border-left:3px solid var(--gold);background:var(--white);box-shadow:0 0 0 1px rgba(15,30,61,.08) inset;display:grid;grid-template-columns:minmax(220px,1fr) 2.4fr;gap:32px;align-items:center}
-.esg h3{font-size:22px}
-.esg p{font-size:15px;color:var(--muted)}
-
-/* PERCHÉ NOI */
-.dark{background:var(--navy);color:var(--white)}
-.dark .lead{color:rgba(255,255,255,.7)}
-.reasons{display:grid;grid-template-columns:repeat(2,1fr);gap:0 64px;margin-top:48px}
-.reason{padding:34px 0;border-top:1px solid var(--line)}
-.reason h3{font-size:28px;margin-bottom:10px}
-.reason p{color:rgba(255,255,255,.72);font-size:16px;max-width:460px}
-
-/* STORIA + TEAM */
-.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:48px}
-.step{border-top:1px solid var(--gold);padding-top:24px;position:relative}
-.step::before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%;background:var(--gold)}
-.step b{font-family:var(--serif);font-weight:500;font-size:30px;color:var(--navy);display:block;margin-bottom:8px}
-.step p{font-size:15px;color:#3a3d44}
-.team-h{margin-top:96px}
-.team{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:8px}
-.member{text-align:left}
-.avatar{width:96px;height:96px;border-radius:50%;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:28px;color:var(--navy);background:var(--white);margin-bottom:22px}
-.member h3{font-size:25px;margin-bottom:6px}
-.member p{font-size:14px;color:var(--muted)}
-.member a{font-size:14px;color:var(--gold);text-decoration:none;display:inline-block;margin-top:8px}
-
-/* FAQ */
-.faq{max-width:860px;margin-top:40px}
-.faq details{border-top:1px solid rgba(15,30,61,.14)}
-.faq details:last-child{border-bottom:1px solid rgba(15,30,61,.14)}
-.faq summary{list-style:none;cursor:pointer;padding:26px 48px 26px 0;font-family:var(--serif);font-size:24px;font-weight:500;position:relative}
-.faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font-family:var(--sans);font-weight:300;font-size:28px;color:var(--gold);transition:transform .2s}
-.faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
-.faq details p{padding:0 48px 28px 0;color:#3a3d44;font-size:16px}
-
-/* CTA */
-.cta{background:var(--navy-2);color:var(--white);text-align:center;padding:96px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.cta h2{max-width:820px;margin:0 auto 34px}
-.cta p{color:rgba(255,255,255,.7);margin:-14px auto 34px;max-width:560px}
-
-/* CONTATTI */
-.contact{background:var(--navy);color:var(--white);padding:104px 0 40px}
-.contact-grid{display:grid;grid-template-columns:5fr 7fr;gap:72px}
-.contact-list{display:grid;grid-template-columns:repeat(2,1fr);gap:34px 40px}
-.contact-list div small{display:block;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
-.contact-list div p,.contact-list div a{font-size:17px;color:rgba(255,255,255,.88);text-decoration:none}
-.contact-list a:hover{color:var(--gold)}
-.map{margin-top:28px;display:inline-block;font-size:14px;color:var(--gold);text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px}
-footer{margin-top:88px;padding-top:28px;border-top:1px solid rgba(255,255,255,.12);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px;color:rgba(255,255,255,.55)}
-footer a{text-decoration:none}
-footer a:hover{color:var(--gold)}
-
-/* RESPONSIVE */
-@media (max-width:1024px){
-  .menu{gap:20px}
-  .cards{grid-template-columns:1fr;max-width:640px}
-  .esg{grid-template-columns:1fr;gap:10px}
-}
-@media (max-width:900px){
-  section{padding:84px 0}
-  .burger{display:block}
-  .menu{position:absolute;top:76px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:flex-start;gap:0;padding:8px 32px 28px;border-bottom:1px solid var(--line);display:none}
-  .nav.open .menu{display:flex}
-  .menu li{width:100%;border-top:1px solid rgba(255,255,255,.08)}
-  .menu li:first-child{border-top:0}
-  .menu a{display:block;padding:15px 0;font-size:16px}
-  .menu .btn{display:inline-flex;margin-top:16px;padding:14px 20px}
-  .menu li:last-child{border-top:0}
-  .two-col,.contact-grid{grid-template-columns:1fr;gap:28px}
-  .reasons{grid-template-columns:1fr}
-  .timeline,.team{grid-template-columns:1fr;gap:32px}
-}
-@media (max-width:600px){
-  .wrap{padding:0 20px}
-  .hero{padding:88px 0 64px}
-  .stats{grid-template-columns:1fr;margin-top:56px}
-  .stat,.stat + .stat{padding:20px 0;border-left:0;border-bottom:1px solid var(--line)}
-  .btn{width:100%;justify-content:center;text-align:center}
-  .menu .btn{width:auto}
-  .contact-list{grid-template-columns:1fr}
-  .faq summary{font-size:21px}
-  .card{padding:32px 24px}
-  .logo{font-size:21px}
-}
-</style>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Studio Marchi &amp; Partners">
+<meta property="og:title" content="Studio Marchi &amp; Partners — Commercialisti e revisori legali a Prato dal 1962">
+<meta property="og:description" content="Consulenza fiscale e societaria, revisione legale e contabilità per imprese e professionisti. Studio di Prato dal 1962, al lavoro nel territorio pratese e oltre. Check-up fiscale gratuito.">
+<meta property="og:url" content="https://www.studiomarchipartners.it/">
+<meta property="og:image" content="https://www.studiomarchipartners.it/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#182643">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/cormorant-garamond-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/dm-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+<script>document.documentElement.className+=' js'</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AccountingService", "name": "Studio Marchi & Partners", "url": "https://www.studiomarchipartners.it/", "telephone": "+39 0574 571400", "email": "info@studiomarchipartners.it", "foundingDate": "1962", "vatID": "IT01911910972", "areaServed": ["Prato", "Italia"], "address": {"@type": "PostalAddress", "streetAddress": "Via Francesco Ferrucci 49", "postalCode": "59100", "addressLocality": "Prato", "addressRegion": "PO", "addressCountry": "IT"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "13:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "15:00", "closes": "19:00"}], "sameAs": ["https://www.linkedin.com/in/filippo-cesaroni-marchi/"]}</script>
 </head>
 <body>
-
-<nav class="nav" id="nav" aria-label="Navigazione principale">
-  <div class="wrap">
-    <a href="#home" class="logo">Studio Marchi <span>&amp;</span> Partners</a>
-    <button class="burger" aria-label="Apri il menu" aria-expanded="false" aria-controls="menu"><span></span></button>
-    <ul class="menu" id="menu">
-      <li><a href="#chi-siamo">Chi siamo</a></li>
-      <li><a href="#servizi">Servizi</a></li>
-      <li><a href="#perche-noi">Perché noi</a></li>
-      <li><a href="#storia">Storia</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contatti">Contatti</a></li>
-      <li><a class="btn btn-gold" href="https://fcm-dott.github.io/questionario">Check-up gratuito</a></li>
-    </ul>
-  </div>
-</nav>
-
-<header class="hero" id="home">
-  <div class="wrap">
-    <div class="eyebrow">Dal 1962 · Prato</div>
-    <h1>Competenza, <em>fiducia</em> e visione per la tua impresa.</h1>
-    <p class="lead">Consulenza fiscale, societaria e revisione legale per imprese, professionisti e privati, nel territorio pratese e oltre. Ogni situazione analizzata caso per caso, con un professionista che ti segue di persona.</p>
-    <div class="hero-ctas">
-      <a class="btn btn-gold" href="https://fcm-dott.github.io/questionario">Fai il check-up gratuito della tua situazione fiscale →</a>
-      <a class="btn btn-ghost" href="#contatti">Contattaci</a>
-    </div>
-    <div class="stats">
-      <div class="stat"><b>60+</b><small>anni di attività</small></div>
-      <div class="stat"><b>Prato</b><small>sede storica in Via Ferrucci</small></div>
-      <div class="stat"><b>1</b><small>referente dedicato</small></div>
-    </div>
-  </div>
+<a class="skip" href="#main">Vai al contenuto</a>
+<div class="shell">
+<header class="side">
+<a class="brand" href="index.html" aria-label="Studio Marchi &amp; Partners, home">
+<span class="brand-name">Studio Marchi <i>&amp;</i> Partners</span>
+<span class="brand-sub">Commercialisti e revisori legali</span>
+<span class="brand-since">dal 1962</span>
+</a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+<nav class="nav" id="site-nav" aria-label="Navigazione principale"><ul><li><a href="index.html" aria-current="page">Home</a></li><li><a href="servizi.html">Servizi</a></li><li><a href="studio.html">Lo Studio</a></li><li><a href="blog/index.html">Blog</a></li><li><a href="risorse.html">Risorse</a></li><li><a href="contatti.html">Contatti</a></li></ul></nav>
+<div class="side-foot">
+<p><a href="tel:+390574571400">0574 571400</a></p>
+<p><a href="mailto:info@studiomarchipartners.it">info@studiomarchipartners.it</a></p>
+<a class="btn" href="https://fcm-dott.github.io/questionario/">Check-up gratuito</a>
+</div>
 </header>
+<div class="content">
+<main id="main">
 
-<main>
-<section class="cream" id="chi-siamo">
-  <div class="wrap two-col">
-    <div>
-      <div class="eyebrow">01 · Chi siamo</div>
-      <h2>Una storia lunga più di <em>sessant'anni</em></h2>
-    </div>
-    <div>
-      <p>Studio Marchi &amp; Partners è uno degli studi storici di Prato. Fondato nel 1962 dal Rag. Fabrizio Marchi, da oltre sessant'anni accompagna imprese, professionisti e famiglie del territorio con rigore, riservatezza e competenza.</p>
-      <p>Uno studio storico, ma vivo: ancora oggi presente ogni giorno nella sua sede di Via Francesco Ferrucci 49, aggiornato sulle norme e vicino alle persone che segue.</p>
-    </div>
-  </div>
+<div class="wrap">
+<section class="hero">
+<div>
+<p class="kicker">Dal 1962 · Prato</p>
+<h1>Competenza, fiducia e <em>visione</em> per la tua impresa.</h1>
+<p class="lead">Consulenza fiscale, societaria e revisione legale per imprese, professionisti e privati, nel territorio pratese e oltre. Ogni situazione analizzata caso per caso, con un professionista che ti segue di persona.</p>
+<div class="btn-row"><a class="btn" href="https://fcm-dott.github.io/questionario/">Fai il check-up gratuito della tua situazione fiscale</a><a class="btn btn-ghost" href="servizi.html">Scopri i servizi</a></div>
+<p class="hero-note">Due minuti per raccontarci la tua situazione. Rispondiamo personalmente entro 24 ore.</p>
+<ul class="facts"><li><b>60+</b><span>anni di attività</span></li><li><b>Prato</b><span>sede storica in Via Ferrucci</span></li><li><b>1</b><span>referente dedicato</span></li></ul>
+</div>
+<div class="hero-art" aria-hidden="true"><span>dal 1962</span></div>
 </section>
+</div>
 
-<section id="servizi">
-  <div class="wrap">
-    <div class="eyebrow">02 · Servizi</div>
-    <h2>Competenze integrate per <em>ogni esigenza</em></h2>
-    <div class="cards">
-      <article class="card">
-        <span class="num">01</span>
-        <h3>Consulenza contabile e fiscale</h3>
-        <ul>
-          <li>Tenuta della contabilità in regime forfettario, semplificato e ordinario</li>
-          <li>Dichiarazioni Redditi, IVA, IRAP e 730</li>
-          <li>Pianificazione fiscale</li>
-          <li>Assistenza nel contenzioso tributario</li>
-        </ul>
-      </article>
-      <article class="card">
-        <span class="num">02</span>
-        <h3>Revisione legale e controllo</h3>
-        <ul>
-          <li>Revisione legale dei conti</li>
-          <li>Collegi sindacali</li>
-          <li>Due diligence contabile</li>
-          <li>Certificazione dei crediti d'imposta</li>
-        </ul>
-      </article>
-      <article class="card">
-        <span class="num">03</span>
-        <h3>Consulenza societaria e aziendale</h3>
-        <ul>
-          <li>Costituzione e operazioni straordinarie</li>
-          <li>Valutazioni d'azienda</li>
-          <li>Passaggi generazionali</li>
-          <li>Controllo di gestione e adeguati assetti per la prevenzione della crisi</li>
-        </ul>
-      </article>
-    </div>
-    <aside class="esg">
-      <h3>In più: sostenibilità e rendicontazione ESG</h3>
-      <p>Affianchiamo le imprese nella rendicontazione di sostenibilità e nelle richieste ESG di banche e grandi clienti, con un approccio proporzionato alle dimensioni dell'azienda.</p>
-    </aside>
-  </div>
-</section>
+<section class="sec sec-tint"><div class="wrap">
+<h2>Uno studio storico, ma vivo</h2>
+<p class="lead">Studio Marchi &amp; Partners è uno degli studi storici di Prato. Fondato nel 1962 dal Rag. Fabrizio Marchi, da oltre sessant'anni accompagna imprese, professionisti e famiglie del territorio con rigore, riservatezza e competenza. Ancora oggi è presente ogni giorno nella sua sede di Via Francesco Ferrucci 49, aggiornato sulle norme e vicino alle persone che segue.</p>
+</div></section>
 
-<section class="dark" id="perche-noi">
-  <div class="wrap">
-    <div class="eyebrow">03 · Perché noi</div>
-    <h2>Perché scegliere <em>lo Studio</em></h2>
-    <div class="reasons">
-      <div class="reason"><h3>Attenzione personale</h3><p>Un professionista di riferimento che conosce la tua storia e risponde in prima persona.</p></div>
-      <div class="reason"><h3>Analisi caso per caso</h3><p>Nessuna soluzione standard: ogni scelta fiscale parte dai tuoi numeri e dai tuoi obiettivi.</p></div>
-      <div class="reason"><h3>Vicinanza</h3><p>Siamo a Prato, in studio o in videochiamata: tempi di risposta rapidi, documenti in cloud e firme digitali.</p></div>
-      <div class="reason"><h3>Continuità</h3><p>Dal 1962 un punto di riferimento stabile per imprese e famiglie pratesi: le relazioni costruite nel tempo sono il nostro patrimonio.</p></div>
-    </div>
-  </div>
-</section>
+<section class="sec"><div class="wrap">
+<h2>Come possiamo aiutarti</h2>
+<div class="svc">
+<a class="svc-row" href="servizi.html#consulenza"><span class="n">01</span><h3>Consulenza fiscale e societaria</h3><p>Pianificazione e gestione ordinaria e straordinaria, dalla costituzione alla crescita dell'impresa.</p></a>
+<a class="svc-row" href="revisione-legale.html"><span class="n">02</span><h3>Revisione legale dei conti</h3><p>Verifica indipendente del bilancio secondo i principi ISA Italia, per dare solidità e credibilità alla tua azienda verso banche e investitori.</p></a>
+<a class="svc-row" href="servizi.html#contabilita"><span class="n">03</span><h3>Contabilità</h3><p>Gestione contabile per PMI, aziende e professionisti.</p></a>
+</div>
+<div class="svc-minor"><span></span><strong>Sostenibilità ESG</strong><p>Supporto sulla rendicontazione CSRD, per le imprese che ne hanno necessità o interesse. <a class="text-link" href="esg.html">Maggiori informazioni</a></p></div>
+</div></section>
 
-<section class="cream" id="storia">
-  <div class="wrap">
-    <div class="eyebrow">04 · Storia</div>
-    <h2>Uno studio storico, <em>presente sul territorio</em></h2>
-    <div class="timeline">
-      <div class="step"><b>1962</b><p>Il Rag. Fabrizio Marchi fonda lo studio a Prato.</p></div>
-      <div class="step"><b>Crescita</b><p>Lo studio amplia la consulenza societaria e la revisione legale, consolidando il legame con il tessuto produttivo pratese.</p></div>
-      <div class="step"><b>Oggi</b><p>Uno studio che si rinnova: digitalizzazione, nuove competenze in sostenibilità e la stessa presenza quotidiana sul territorio.</p></div>
-    </div>
+<section class="sec sec-tint"><div class="wrap">
+<h2>Dal blog dello Studio</h2>
+<div class="post-list"><a class="post" href="blog/forfettario-soglia-85000.html"><div class="when"><b>Fisco</b></div><div><h3>Regime forfettario: cosa fare quando ti avvicini agli 85.000 euro</h3><p>Molti professionisti scoprono la soglia solo quando l'hanno già superata. Cosa succede tra 85.000 e 100.000 euro, cosa oltre, e come prepararsi per tempo.</p></div></a><a class="post" href="blog/revisione-legale-volontaria-pmi.html"><div class="when"><b>Revisione</b></div><div><h3>Revisione legale volontaria: quando ha senso anche per una PMI non obbligata</h3><p>Non serve essere obbligati per beneficiare di un controllo indipendente dei conti. In quali situazioni vale la pena valutarla.</p></div></a><a class="post" href="blog/check-up-fiscale-gratuito.html"><div class="when"><b>Lo Studio</b></div><div><h3>Il check-up fiscale gratuito: cosa chiediamo e cosa ricevi</h3><p>Come funziona il primo passo con lo Studio: le domande, i tempi e il tipo di riscontro che puoi aspettarti.</p></div></a></div>
+<p style="margin-top:1.4rem"><a class="text-link" href="blog/index.html">Tutti gli articoli</a></p>
+</div></section>
 
-    <div class="eyebrow team-h">Il team</div>
-    <div class="team">
-      <div class="member"><div class="avatar" aria-hidden="true">FM</div><h3>Rag. Fabrizio Marchi</h3><p>Fondatore</p></div>
-      <div class="member"><div class="avatar" aria-hidden="true">RC</div><h3>Dott. Roberto Cesaroni</h3><p>Dottore Commercialista</p></div>
-      <div class="member"><div class="avatar" aria-hidden="true">FCM</div><h3>Dott. Filippo Cesaroni Marchi</h3><p>Dottore Commercialista, Revisore Legale e Revisore della Sostenibilità</p><a href="https://www.linkedin.com/in/filippo-cesaroni-marchi/" target="_blank" rel="noopener">LinkedIn →</a></div>
-    </div>
-  </div>
-</section>
+<section class="sec"><div class="wrap">
+<div class="li-strip" id="li-posts" data-src="assets/linkedin.json">
+<div class="li-head"><h2>Dai nostri post su LinkedIn</h2><a class="text-link" href="https://www.linkedin.com/in/filippo-cesaroni-marchi/" rel="noopener">Seguimi su LinkedIn</a></div>
+<p class="li-fallback">Ogni settimana scrivo su LinkedIn di fisco, revisione e vita d'impresa, con esempi concreti. <a class="text-link" href="https://www.linkedin.com/in/filippo-cesaroni-marchi/" rel="noopener">Leggi gli ultimi post</a>.</p>
+<ul class="li-list" hidden></ul>
+</div>
+</div></section>
 
-<section id="faq">
-  <div class="wrap">
-    <div class="eyebrow">05 · FAQ</div>
-    <h2>Le risposte alle <em>tue domande</em></h2>
-    <div class="faq">
-      <details><summary>Seguite anche clienti fuori Prato?</summary><p>Sì. Lavoriamo con clienti in tutta Italia tramite videochiamate, condivisione documenti in cloud e firma digitale, con la stessa attenzione riservata a chi viene in studio.</p></details>
-      <details><summary>Cos'è il check-up gratuito?</summary><p>Un breve questionario online: in pochi minuti ci descrivi la tua situazione e ti ricontattiamo personalmente per una prima valutazione, senza impegno.</p></details>
-      <details><summary>Posso cambiare commercialista in corso d'anno?</summary><p>Sì. Ci occupiamo noi del passaggio delle informazioni con il professionista precedente, senza interruzioni negli adempimenti.</p></details>
-      <details><summary>Seguite anche persone fisiche?</summary><p>Sì: dichiarazioni dei redditi, successioni, immobili e pianificazione patrimoniale familiare.</p></details>
-    </div>
-  </div>
-</section>
+<section class="sec sec-tint"><div class="wrap">
+<h2>La differenza è nell'attenzione al singolo caso</h2>
+<div class="cols3">
+<div class="col"><h3>Analisi su misura</h3><p>Non partiamo da soluzioni preconfezionate: studiamo la tua situazione fiscale e contabile prima di consigliarti la strada migliore.</p></div>
+<div class="col"><h3>Continuità nel rapporto</h3><p>Un referente che conosce la tua azienda nel tempo, non un ticket assegnato di volta in volta a chi è disponibile.</p></div>
+<div class="col"><h3>Radicati a Prato</h3><p>Siamo uno studio storico della città e siamo ancora al lavoro sul territorio: conosciamo il tessuto di imprese e professionisti in cui operi.</p></div>
+</div>
+</div></section>
 
-<section class="cta">
-  <div class="wrap">
-    <div class="eyebrow" style="justify-content:center">Senza impegno</div>
-    <h2>Fai il check-up gratuito della tua <em>situazione fiscale</em></h2>
-    <a class="btn btn-gold" href="https://fcm-dott.github.io/questionario">Inizia ora →</a>
-  </div>
-</section>
+<section class="sec"><div class="wrap">
+<h2>Siamo a Prato. Lavoriamo ovunque tu sia.</h2>
+<p class="lead">Seguiamo imprenditori e professionisti in tutta Italia con la stessa qualità di una presenza in studio.</p>
+<ul class="tags"><li>Videochiamate</li><li>Email e WhatsApp</li><li>Documenti in cloud</li><li>Firma digitale</li></ul>
+</div></section>
+
+<section class="sec sec-dark on-dark"><div class="wrap">
+<h2>Dal 1962, un punto di riferimento a Prato</h2>
+<p class="lead">Fondato nel 1962 dal Rag. Fabrizio Marchi, lo Studio è da allora un punto di riferimento per imprenditori e professionisti pratesi. Oggi è ancora al lavoro nello stesso territorio, con gli stessi valori di rigore e riservatezza e con strumenti aggiornati — dalla digitalizzazione alle nuove normative.</p>
+<p><a class="btn" href="studio.html">Scopri la nostra storia</a></p>
+</div></section>
+
+<section class="sec"><div class="wrap">
+<h2>Le domande più frequenti</h2>
+<div class="faq"><details><summary><h3>Come posso capire se la mia azienda ha bisogno di un'analisi fiscale e contabile più precisa e mirata?</h3></summary><div><p>Ci sono segnali ricorrenti: le imposte di fine anno sono una sorpresa, i numeri del bilancio non spiegano come è andata l'attività, investimenti o nuovi soci vengono decisi senza una simulazione, le scadenze si gestiscono in rincorsa. Se ti riconosci in uno di questi casi, il check-up gratuito serve a capire se c'è margine per lavorare meglio.</p></div></details><details><summary><h3>Quali servizi offre lo Studio per aprire una nuova Partita IVA?</h3></summary><div><p>Valutiamo con te il regime più adatto (forfettario, semplificato o ordinario) in base all'attività e ai ricavi attesi, seguiamo le pratiche di apertura e le iscrizioni previdenziali e camerali dove previste, e impostiamo contabilità e fatturazione fin dal primo giorno. <a class="text-link" href="contatti.html">Scrivici</a> per un primo confronto.</p></div></details><details><summary><h3>Lavorate anche con clienti fuori Prato?</h3></summary><div><p>Sì. Lavoriamo con clienti in tutta Italia tramite videochiamate, condivisione documenti in cloud e firma digitale, con la stessa attenzione riservata a chi viene in studio.</p></div></details><details><summary><h3>Cos'è il check-up gratuito?</h3></summary><div><p>Un breve questionario online: in pochi minuti ci descrivi la tua situazione e ti ricontattiamo personalmente per una prima valutazione, senza impegno.</p></div></details><details><summary><h3>Posso cambiare commercialista in corso d'anno?</h3></summary><div><p>Sì. Ci occupiamo noi del passaggio delle informazioni con il professionista precedente, senza interruzioni negli adempimenti.</p></div></details><details><summary><h3>Seguite anche persone fisiche?</h3></summary><div><p>Sì: dichiarazioni dei redditi, successioni, immobili e pianificazione patrimoniale familiare.</p></div></details><details><summary><h3>La mia PMI è obbligata alla rendicontazione di sostenibilità (CSRD)?</h3></summary><div><p>Probabilmente no. Dopo la riforma europea nota come Omnibus, l'obbligo diretto riguarda solo le imprese molto grandi (più di 1.000 dipendenti e oltre 450 milioni di euro di fatturato netto). Una PMI può comunque ricevere richieste di dati da clienti o banche. Se è il tuo caso, <a class="text-link" href="esg.html">leggi come possiamo aiutarti</a>.</p></div></details></div>
+</div></section>
+
 </main>
+<section class="cta"><div class="wrap">
+<h2>Parliamo della tua situazione</h2><p>Due minuti per raccontarci la tua azienda: ti diamo un riscontro mirato, senza impegno.</p>
+<div class="btn-row"><a class="btn" href="https://fcm-dott.github.io/questionario/">Fai il check-up gratuito della tua situazione fiscale</a><a class="text-link" style="color:var(--cream)" href="contatti.html">Preferisci scriverci? Vai ai contatti</a></div>
+</div></section>
+<footer class="foot"><div class="wrap">
+<div><b>Studio Marchi &amp; Partners</b>
+<p>Via Francesco Ferrucci 49<br>59100 Prato (PO)</p>
+<p>P.IVA 01911910972</p></div>
+<div><b>Contatti</b>
+<p><a href="tel:+390574571400">0574 571400</a> / <a href="tel:+390574571425">0574 571425</a></p>
+<p><a href="mailto:info@studiomarchipartners.it">info@studiomarchipartners.it</a></p>
+<p>Lunedì–venerdì, 9:00–13:00 e 15:00–19:00</p></div>
+<div><b>Il sito</b>
+<p><a href="servizi.html">Servizi</a> · <a href="blog/index.html">Blog</a> · <a href="studio.html">Lo Studio</a></p>
+<p><a href="privacy-policy.html">Privacy policy</a> · <a href="cookie-policy.html">Cookie policy</a></p>
+<p><a href="https://www.linkedin.com/in/filippo-cesaroni-marchi/" rel="noopener">LinkedIn</a></p></div>
+<p class="legal">© 2026 Studio Marchi &amp; Partners · Via Francesco Ferrucci 49, 59100 Prato · P.IVA 01911910972</p>
+</div></footer>
+</div>
+</div>
 
-<section class="contact" id="contatti">
-  <div class="wrap">
-    <div class="contact-grid">
-      <div>
-        <div class="eyebrow">06 · Contatti</div>
-        <h2>Parliamone, <em>di persona</em>.</h2>
-        <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=Via+Francesco+Ferrucci+49+Prato" target="_blank" rel="noopener">Apri in Google Maps →</a>
-      </div>
-      <div class="contact-list">
-        <div><small>Indirizzo</small><p>Via Francesco Ferrucci 49<br>59100 Prato (PO)</p></div>
-        <div><small>Telefono</small><a href="tel:+390574571400">0574 571400</a><br><a href="tel:+390574571425">0574 571425</a></div>
-        <div><small>Email</small><a href="mailto:info@studiomarchipartners.it">info@studiomarchipartners.it</a></div>
-        <div><small>Orari</small><p>Lun – Ven<br>9:00 – 13:00 · 15:00 – 19:00</p></div>
-        <div><small>LinkedIn</small><a href="https://www.linkedin.com/in/filippo-cesaroni-marchi/" target="_blank" rel="noopener">Filippo Cesaroni Marchi</a></div>
-      </div>
-    </div>
-    <footer>
-      <span>© 2026 Studio Marchi &amp; Partners — Via Francesco Ferrucci 49, 59100 Prato — P.IVA 01911910972</span>
-      <span>Privacy Policy · Cookie Policy</span>
-    </footer>
-  </div>
-</section>
-
-<script>
-(function(){
-  var nav=document.getElementById('nav'), b=nav.querySelector('.burger');
-  b.addEventListener('click',function(){var o=nav.classList.toggle('open');b.setAttribute('aria-expanded',o);});
-  nav.querySelectorAll('.menu a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');b.setAttribute('aria-expanded','false');});});
-})();
-</script>
+<script src="assets/main.js" defer></script>
 </body>
 </html>
