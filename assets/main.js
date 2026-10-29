@@ -20,7 +20,7 @@
     publicKey: 'sb68otMBGAKsrW3QL',
     serviceId: 'fcm_gmail',
     templateId: 'template_r8vh2nx',
-    toEmail: 'commercialistafcm@gmail.com'
+    toEmail: 'info@studiomarchipartners.it'
   };
 
 
